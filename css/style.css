@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ec6602;
+}
+
+.wrap {
+    width: 950px;
+    height: 600px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+}
+
+.search_form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.form_group input {
+    height: 30px;
+    width: 446px;
+    float: left;
+    border: solid 1px #009999;
+    border-radius: 3px;
+}
+
+button.input_sub {
+    line-height: 32px;
+    width: 50px;
+    margin-left: -5px;
+    border: none;
+    background-color: #009999;
+    color: #efefef;
+    border-radius: 1px;
+}
+
+.hotkey {
+    margin: 20px 0;
+    text-align: left;
+}
+
+p.city{
+    font-size: 60px;
+    color: #009999;
+}
+
+ul.weather_list {
+    margin: 20px 0;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 20px;
+    border-left: 1px solid #009999;
+    border-image: -webkit-linear-gradient(#fff, #009999, #fff) 20 20;
+
+    border-image: -moz-linear-gradient(#fff, #009999, #fff) 20 20;
+
+    border-image: -o-linear-gradient(#fff, #009999, #fff) 20 20;
+
+    border-image: linear-gradient(#fff, #009999, #fff) 20 20;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+li div {
+    margin: 10px 0;
+}
+
+.iconfont {
+    color: #ec6602;
+    font-size: 35px;
+}
+
+.info_temp b {
+    color: #ec6602;
+}
